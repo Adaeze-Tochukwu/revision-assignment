@@ -1,0 +1,17 @@
+.containerR {
+  max-width: 100%;
+  // min-width: 425px;
+  border: 1px brown dotted;
+
+  @media screen and (min-width: 768px) {
+    // min-width: 400px;
+    max-width: 200px;
+    border: black 1px dotted;
+  }
+
+  @media screen and (min-width: 1200px) {
+    // min-width: 700px;
+    max-width: 300px;
+    border: 1px gray dotted;
+  }
+}
