@@ -16,7 +16,7 @@
     align-items: center;
     height: 50px;
     p {
-      border: 1px dotted blue;
+      // border: 1px dotted blue;
       font-weight: bold;
       margin-bottom: 0;
       margin-top: 0;
@@ -34,7 +34,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 22px;
-    border: 1px dotted blue;
+    // border: 1px dotted blue;
   }
 
   a {
@@ -47,14 +47,14 @@
     gap: 6px;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
+    border: 1px solid rgb(42, 170, 138);
     width: 140px;
     height: 40px;
     border-radius: 7px;
-    color: green;
+    color: rgb(42, 170, 138);
 
     &--arrowDown {
-      border: 1px dotted black;
+      // border: 1px dotted black;
       padding-top: 4px;
     }
   }
@@ -65,15 +65,14 @@
     gap: 6px;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
     width: 185px;
     height: 40px;
     border-radius: 7px;
-    background-color: green;
+    background-color: rgb(42, 170, 138);
     color: white;
 
     &--arrowRight {
-      border: yellow dotted 1px;
+      // border: yellow dotted 1px;
       padding-top: 7px;
       height: 20px;
     }
