@@ -1,16 +1,15 @@
 .note {
   background-color: white;
-  padding: 10px;
-  padding-right: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 8px;
   padding-bottom: 10px;
 
   textarea {
-    width: 100%;
+    width: 99%;
     height: 150px;
     border: solid gray 1px;
     border-radius: 5px;
-    margin-right: 5px;
   }
 
   a {
@@ -20,9 +19,8 @@
   &__btn {
     display: flex;
     flex-direction: row;
-    border: 1px dotted red;
+    // border: 1px dotted red;
     justify-content: space-between;
-    width: 100%;
     margin-top: 20px;
 
     &--save {
