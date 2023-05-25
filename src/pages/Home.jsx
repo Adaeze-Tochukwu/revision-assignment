@@ -5,6 +5,7 @@ import ContainerR from "../components/containerR/ContainerR";
 import Video from "../components/video/Video";
 import Rate from "../components/rate/Rate";
 import Note from "../components/note/Note";
+import About from "../components/about/About";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
           <Rate />
           <Note />
         </ContainerL>
-        <ContainerR />
+        <ContainerR>
+          <About />
+        </ContainerR>
       </Container>
     </div>
   );
