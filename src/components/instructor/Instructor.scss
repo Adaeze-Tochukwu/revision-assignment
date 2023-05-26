@@ -1,0 +1,35 @@
+.instructor {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  // border: 1px dotted pink;
+  height: 100px;
+  margin-top: 0;
+
+  &__pics {
+    // border: 1px dotted green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // border: 1px dotted black;
+  }
+
+  h4 {
+    // border: 1px dotted blue;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    // border: 1px dotted red;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+  }
+}

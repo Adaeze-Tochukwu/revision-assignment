@@ -8,13 +8,13 @@
   border: 1px yellow dotted;
 
   @media screen and (min-width: 768px) {
-    min-width: 70%;
+    min-width: 68%;
     // max-width: 70%;
     border: red 1px dotted;
   }
 
   @media screen and (min-width: 1200px) {
-    min-width: 70%;
+    min-width: 68%;
     // max-width: 100%;
     border: 1px green dotted;
   }

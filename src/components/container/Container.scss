@@ -3,12 +3,14 @@
   // width: 300px;
   min-width: 98vw;
   padding: 10px;
-  // height: 600px;
   background-color: #e7e9eb;
+  font-family: "sans-serif", "Gill Sans", "Gill Sans MT", Calibri;
+  color: #36454F;
   border: 1px red dotted;
 
   display: flex;
   flex-direction: column;
+  gap: 15px;
 
   @media screen and (min-width: 768px) {
     min-width: 98vw;

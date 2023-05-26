@@ -1,0 +1,14 @@
+.category {
+  // border: 1px dotted red;
+   font-weight: bold;
+    font-size: 12px;
+
+  display: flex;
+  gap: 20px;
+
+  &__all {
+    border: 1px solid #36454f;
+    border-radius: 15px;
+    padding: 3px;
+  }
+}

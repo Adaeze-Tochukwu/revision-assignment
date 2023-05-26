@@ -1,0 +1,14 @@
+.easy {
+  // border: 1px dotted green;
+  display: flex;
+  gap: 20px;
+
+  &__all {
+    // border: black 1px dotted;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
