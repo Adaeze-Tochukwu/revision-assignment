@@ -11,4 +11,12 @@
     border-radius: 15px;
     padding: 3px;
   }
+
+  @media screen and (max-width: 928px) {
+    flex-direction: column;
+
+    // &__all {
+    //   align-self: center;
+    // }
+  }
 }
