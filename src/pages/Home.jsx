@@ -12,6 +12,7 @@ import Category from "../components/category/Category";
 import CourseParagraph from "../components/courseParagraph/CourseParagraph";
 import Instructor from '../components/instructor/Instructor';
 import ContentContainer from '../components/contentContainer/ContentContainer';
+import CourseContent from '../components/courseContent/CourseContent';
 
 export default function Home() {
   return (
@@ -30,7 +31,9 @@ export default function Home() {
             <CourseParagraph />
             <Instructor />
           </AboutContainer>
-          <ContentContainer />
+          <ContentContainer>
+            <CourseContent />
+          </ContentContainer>
         </ContainerR>
       </Container>
     </div>

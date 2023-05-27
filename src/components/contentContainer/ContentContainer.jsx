@@ -1,10 +1,10 @@
 import React from 'react'
 import "./ContentContainer.scss"
 
-export default function ContentContainer() {
+export default function ContentContainer({ children }) {
   return (
     <div className='contentContainer'>
-      Content
+      {children}
     </div>
   )
 }
