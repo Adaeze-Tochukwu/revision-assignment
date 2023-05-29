@@ -10,9 +10,11 @@ import AboutCourse from "../components/aboutCourse/AboutCourse";
 import Easy from "../components/easy/Easy";
 import Category from "../components/category/Category";
 import CourseParagraph from "../components/courseParagraph/CourseParagraph";
-import Instructor from '../components/instructor/Instructor';
-import ContentContainer from '../components/contentContainer/ContentContainer';
-import CourseContent from '../components/courseContent/CourseContent';
+import Instructor from "../components/instructor/Instructor";
+import ContentContainer from "../components/contentContainer/ContentContainer";
+import CourseContent from "../components/courseContent/CourseContent";
+import Part from "../components/part/Part";
+import PartDetail from '../components/part/PartDetail';
 
 export default function Home() {
   return (
@@ -33,6 +35,8 @@ export default function Home() {
           </AboutContainer>
           <ContentContainer>
             <CourseContent />
+            <Part />
+            <PartDetail />
           </ContentContainer>
         </ContainerR>
       </Container>

@@ -11,4 +11,20 @@
     align-items: center;
     gap: 5px;
   }
+
+  
+  @media screen and (max-width: 928px) {
+    flex-direction: column;
+    width: 30%;
+  }
+
+  @media screen and (max-width: 863px) {
+    width: 35%;
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: row;
+    width: 100%;
+  }
+
 }

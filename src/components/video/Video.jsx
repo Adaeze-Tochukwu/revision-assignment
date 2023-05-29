@@ -7,7 +7,7 @@ export default function Video() {
       <iframe
         width="100%"
         height="100%"
-        src="https://www.youtube.com/embed/QpncH_8ys-Y"
+        src="https://www.youtube.com/embed/xPq1KrYWbqo"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

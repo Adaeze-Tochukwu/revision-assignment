@@ -1,0 +1,75 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__part {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+  }
+
+  &__length {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+
+    &--borderR {
+      margin: 0;
+      border-right: 1px solid gray;
+      padding-right: 10px;
+    }
+
+    &--border {
+      margin: 0;
+    }
+  }
+
+  &__checkboxes {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__checkbox {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+
+    &--checkbox {
+      border: 1px dotted red;
+      background-color: red;
+    }
+
+    &--course {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    h5 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.part {
+  display: none;
+}
