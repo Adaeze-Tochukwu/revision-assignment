@@ -1,5 +1,6 @@
 import React from "react";
 import "./Part.scss";
+import data from "./Part.json";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
 export default function PartDetail() {
