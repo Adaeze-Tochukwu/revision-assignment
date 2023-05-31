@@ -3,18 +3,21 @@
     "id": 1,
     "part": "Part 1",
     "position": "1/3",
-    "time": "4 Mins left"
+    "time": "4 Mins left",
+    "course": "Course Title"
   },
   {
     "id": 2,
     "part": "Part 2",
     "position": "1/3",
-    "time": "35 Mins left"
+    "time": "35 Mins left",
+    "course": "Course Title"
   },
   {
     "id": 3,
     "part": "Part 3",
     "position": "0/3",
-    "time": "35 Mins left"
+    "time": "35 Mins left",
+    "course": "Course Title"
   }
 ]

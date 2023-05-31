@@ -13,7 +13,7 @@ import CourseParagraph from "../components/courseParagraph/CourseParagraph";
 import Instructor from "../components/instructor/Instructor";
 import ContentContainer from "../components/contentContainer/ContentContainer";
 import CourseContent from "../components/courseContent/CourseContent";
-import Part from "../components/part/Part";
+// import Part from "../components/part/Part";
 import PartDetail from "../components/part/PartDetail";
 
 export default function Home() {

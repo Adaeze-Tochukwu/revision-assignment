@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Part.scss";
 import data from "./Part.json";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
 export default function PartDetail() {
+  const [courseTitles, setCourseTitles] = useState("");
+
+  useEffect(() => {
+    setCourseTitles(data);
+  }, []);
+
   return (
     <div className="cards">
       <div className="card">
@@ -16,27 +22,15 @@ export default function PartDetail() {
           <p className="card__length--border">4 Min Left</p>
         </div>
         <div className="card__checkboxes">
-          <div className="card__checkbox">
-            <input type="checkbox" className="card__checkbox--checkbox" />
-            <div className="card__checkbox--course">
-              <h5>Course title</h5>
-              <p>2 min</p>
+          {courseTitles.map((courseTitle) => (
+            <div key={courseTitle.id} className="card__checkbox">
+              <input type="checkbox" className="card__checkbox--checkbox" />
+              <div className="card__checkbox--course">
+                <h5>courseTitle</h5>
+                <p>2 min</p>
+              </div>
             </div>
-          </div>
-          <div className="card__checkbox">
-            <input type="checkbox" className="card__checkbox--checkbox" />
-            <div className="card__checkbox--course">
-              <h5>Course title</h5>
-              <p>2 min</p>
-            </div>
-          </div>
-          <div className="card__checkbox">
-            <input type="checkbox" className="card__checkbox--checkbox" />
-            <div className="card__checkbox--course">
-              <h5>Course title</h5>
-              <p>2 min</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
