@@ -1,9 +1,8 @@
 .video {
   max-width: 100%;
   height: 350px;
-  border-radius: 10px;
-  // min-width: 425px;
-  border: 2px red dotted;
+  border-radius: 5px;
+  overflow: hidden; //the overflow is for the video edges
 
   @media screen and (min-width: 768px) {
     // min-width: 400px;
@@ -11,9 +10,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    // min-width: 700px;
     max-width: 100%;
-    // height: 350px;
-    // border: 1px greenyellow dotted;
   }
 }

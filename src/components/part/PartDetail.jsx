@@ -4,7 +4,19 @@ import data from "./Part.json";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
 export default function PartDetail() {
-  const [courseTitles, setCourseTitles] = useState("");
+  const [courseTitles, setCourseTitles] = useState([]);
+
+  const handleCheckbox = (courseTitleId) => {
+    // const courseTitleId = parsenInt(e.target.id);
+    const updatedCourseTitles = courseTitles.map((courseTitle) => {
+      if (courseTitle.id === courseTitleId) {
+        return { ...courseTitle, completed: !courseTitle.completed };
+      } else {
+        return courseTitle;
+      }
+    });
+    setCourseTitles(updatedCourseTitles);
+  };
 
   useEffect(() => {
     setCourseTitles(data);
@@ -24,10 +36,15 @@ export default function PartDetail() {
         <div className="card__checkboxes">
           {courseTitles.map((courseTitle) => (
             <div key={courseTitle.id} className="card__checkbox">
-              <input type="checkbox" className="card__checkbox--checkbox" />
+              <input
+                type="checkbox"
+                checked={courseTitle.completed}
+                id={courseTitle.id}
+                onChange={() => handleCheckbox(courseTitle.id)}
+              />
               <div className="card__checkbox--course">
-                <h5>courseTitle</h5>
-                <p>2 min</p>
+                <h5>{courseTitle.course}</h5>
+                <p>{courseTitle.length}</p>
               </div>
             </div>
           ))}

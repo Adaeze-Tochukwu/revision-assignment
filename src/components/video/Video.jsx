@@ -10,6 +10,7 @@ export default function Video() {
         src="https://www.youtube.com/embed/xPq1KrYWbqo"
         title="YouTube video player"
         frameborder="0"
+        // border-radius="5px"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
